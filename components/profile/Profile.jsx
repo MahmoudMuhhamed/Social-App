@@ -34,12 +34,6 @@ export default function Profile() {
 
   return <>
 
-    <Helmet>
-      <title>
-        {userData?.name}'s Profile | Route Posts
-      </title>
-    </Helmet>
-
 <div className="min-h-screen w-full p-4">
       <div className="w-full border mx-auto max-w-7xl border-gray-200 rounded-3xl overflow-hidden shadow-lg">
         {/* Cover */}
